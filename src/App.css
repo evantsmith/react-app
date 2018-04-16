@@ -40,14 +40,14 @@
   position: relative;
 }
 .tablist1 {
-  height: 1000rem;
+  height: 100%;
   width: 95rem;
   display: flex;
-  align-items: top;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-#mainTextCSS {
+.mainTextCSS {
   font-size: 0.8rem;
   color: black;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -59,7 +59,7 @@
   z-index: 1;
   position: relative;
 }
-#collapseTextCSS {
+.collapseTextCSS {
   font-size: 0.8rem;
   margin: 0.5rem 0.5rem;
   height: 100%;
